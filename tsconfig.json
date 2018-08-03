@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "removeComments": false,
+    "sourceMap": true,
+    "declaration": true,
+    "target": "es5",
+    "module": "commonjs",
+    "allowJs": false,
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "lib": ["es6", "dom", "es2017.object"],
+    "typeRoots": ["./node_modules/@types"],
+    "jsx": "react"
+  },
+  "include": ["src/**/*.tsx"]
+}
